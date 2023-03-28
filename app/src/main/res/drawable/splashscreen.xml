@@ -2,6 +2,7 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/degradado"/>
     <item>
-        <bitmap android:src=""/>
+        <bitmap android:src="@mipmap/icono_de_app"
+            android:gravity="center"/>
     </item>
 </layer-list>
