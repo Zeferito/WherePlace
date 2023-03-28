@@ -12,6 +12,9 @@
         android:theme="@style/Theme.WherePlace"
         tools:targetApi="31">
         <activity
+            android:name=".Pantalla_Principal"
+            android:exported="false" />
+        <activity
             android:name=".Perfil_Usuario"
             android:exported="false">
             <meta-data
