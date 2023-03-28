@@ -12,6 +12,9 @@
         android:theme="@style/Theme.WherePlace"
         tools:targetApi="31">
         <activity
+            android:name=".Pantalla_Principal"
+            android:exported="false" />
+        <activity
             android:name=".Inicio_Sesion_Google"
             android:exported="false" />
         <activity
