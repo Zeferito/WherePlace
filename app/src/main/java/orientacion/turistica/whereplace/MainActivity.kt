@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                val intent = Intent(applicationContext, Pantalla_Principal::class.java).apply{}
+                val intent = Intent(applicationContext, Pantalla_Inicio::class.java).apply{}
                 startActivity(intent)
             }
         }.start()
