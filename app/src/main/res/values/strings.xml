@@ -4,6 +4,7 @@
     <string name="iniciar_sesion">Iniciar Sesión</string>
     <string name="iniciar_sesion2">Iniciar Sesión.</string>
     <string name="crear_cuenta">Crear una cuenta</string>
+    <string name="crear_cuenta_reg">Crear cuenta</string>
     <string name="conecta">Conéctate con: </string>
     <string name="terminos">Conoce los términos y condiciones.</string>
     <string name="text_ini1">Estamos felices de tenerte</string>
@@ -13,4 +14,10 @@
     <string name="olvidaste">¿Olvidaste tu contraseña?</string>
     <string name="haz">Haz click aquí.</string>
     <string name="conoce">Conoce los términos y condiciones</string>
+    <string name="text_reg1">Regístrate para que tus viajes sean toda una experiencia.</string>
+    <string name="text_reg2">Agenda tus viajes, recibe tips, ve lo que otros usuarios recomiendan de sus experiencias.</string>
+    <string name="corre_ele">Correo electrónico</string>
+    <string name="nom">Nombre de usuario</string>
+    <string name="confir_contra">Confirmar contraseña</string>
+    <string name="acep_ter">Acepto los términos y condiciones.</string>
 </resources>
