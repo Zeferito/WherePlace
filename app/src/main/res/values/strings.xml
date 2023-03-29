@@ -2,7 +2,15 @@
     <string name="app_name">WherePlace</string>
     <string name="welcome">Bienvenido a WherePlace. Tu viaje es nuestra prioridad</string>
     <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="iniciar_sesion2">Iniciar Sesión.</string>
     <string name="crear_cuenta">Crear una cuenta</string>
     <string name="conecta">Conéctate con: </string>
     <string name="terminos">Conoce los términos y condiciones.</string>
+    <string name="text_ini1">Estamos felices de tenerte</string>
+    <string name="text_ini2">¿Nuevo viaje en puerta?</string>
+    <string name="nombre">Nombre de usuario / Correo</string>
+    <string name="contra">Contraseña</string>
+    <string name="olvidaste">¿Olvidaste tu contraseña?</string>
+    <string name="haz">Haz click aquí.</string>
+    <string name="conoce">Conoce los términos y condiciones</string>
 </resources>
