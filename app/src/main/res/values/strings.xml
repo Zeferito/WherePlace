@@ -20,4 +20,8 @@
     <string name="nom"> Nombre de usuario </string>
     <string name="confir_contra"> Confirmar contraseña </string>
     <string name="acep_ter"> Acepto los términos y condiciones. </string>
+    <string name="ir_g"> Ir a Gmail</string>
+    <string name="olvi_corre"> ¿Haz olvidado tu correo electrónico? </string>
+    <string name="mas_op"> Más opciones </string>
+    <string name="sig"> Siguiente </string>
 </resources>
