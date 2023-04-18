@@ -31,4 +31,11 @@
     <string name="agenda"> Agendar Viaje </string>
     <string name="touch"> Touch Place </string>
     <string name="reco"> Recomendaciones de otros usuarios. </string>
+    <string name="agen"> Agenda tu próximo viaje </string>
+    <string name="tupro"> Tu próximo viaje es a: </string>
+    <string name="fechas"> Selecciona las fechas de ida y venida de tu viaje. </string>
+    <string name="guarv"> Guardar Viajes </string>
+    <string name="proxiv"> Ver mis proximos viajes </string>
+    <string name="recov"> ¿Recordarme? </string>
+    <string name="activ"> Activa las notificaciones de la app para recordar tu viaje, recibir tips y estar al tanto de tus planes. </string>
 </resources>
