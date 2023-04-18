@@ -12,6 +12,9 @@
         android:theme="@style/Theme.WherePlace"
         tools:targetApi="31">
         <activity
+            android:name=".Touch_Place"
+            android:exported="false" />
+        <activity
             android:name=".LugarVisitar"
             android:exported="false">
             <meta-data
