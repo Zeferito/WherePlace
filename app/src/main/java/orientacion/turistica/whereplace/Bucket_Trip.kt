@@ -16,5 +16,11 @@ class Bucket_Trip : AppCompatActivity() {
             val  intent= Intent(this,Pantalla_Principal :: class.java )
             startActivity(intent)
         }
+
+        val btnlist : Button = findViewById(R.id.btncabos)
+        btnlist.setOnClickListener{
+            val  intent= Intent(this,List :: class.java )
+            startActivity(intent)
+        }
     }
 }
