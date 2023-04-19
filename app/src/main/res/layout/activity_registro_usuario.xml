@@ -60,7 +60,9 @@
             android:layout_marginLeft="50dp"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:hint="@string/nom"/>
+            android:hint="@string/nom"
+            android:textColor="@color/black"
+            android:background="@drawable/textwithe"/>
         <EditText
             android:id="@+id/nombre_usuario"
             android:layout_width="match_parent"
@@ -70,7 +72,9 @@
             android:layout_marginLeft="50dp"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:hint="@string/corre_ele"/>
+            android:hint="@string/corre_ele"
+            android:textColor="@color/black"
+            android:background="@drawable/textwithe"/>
         <EditText
             android:id="@+id/contra_usuario"
             android:layout_width="match_parent"
@@ -80,7 +84,9 @@
             android:layout_marginLeft="50dp"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:hint="@string/contra"/>
+            android:hint="@string/contra"
+            android:textColor="@color/black"
+            android:background="@drawable/textwithe"/>
         <EditText
             android:id="@+id/confir_contra"
             android:layout_width="match_parent"
@@ -90,7 +96,9 @@
             android:layout_marginLeft="50dp"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:hint="@string/confir_contra"/>
+            android:hint="@string/confir_contra"
+            android:textColor="@color/black"
+            android:background="@drawable/textwithe"/>
 
         <CheckBox
             android:id="@+id/checkBox"
