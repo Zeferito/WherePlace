@@ -35,7 +35,86 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"/>
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/agen"
+            android:textColor="@color/principal_green"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textgray"
+            android:text="@string/tupro"
+            android:textColor="@color/principal_green"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/fechas"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+        <CalendarView
+            android:id="@+id/calendarView3"
+            android:layout_width="match_parent"
+            android:layout_height="299dp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonredondo2"
+            android:text="@string/guarv"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonredondo2"
+            android:text="@string/proxiv"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonredondo2"
+                android:text="@string/recov"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:thumbTint="@color/principal_change" />
+
+        </GridLayout>
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:text="@string/activ"
+            android:textSize="12sp" />
 
     </LinearLayout>
 
