@@ -32,7 +32,7 @@
                 android:gravity="center"
                 android:text="@string/hola"/>
             <ImageView
-                android:src="@mipmap/Recurso"
+                android:src="@mipmap/recusu"
                 android:layout_marginTop="2dp"
                 android:layout_marginLeft="2dp"/>
         </GridLayout>

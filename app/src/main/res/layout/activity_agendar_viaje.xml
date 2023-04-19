@@ -29,7 +29,7 @@
                 android:src="@mipmap/verde" />
 
             <ImageView
-                android:src="@mipmap/Recurso"
+                android:src="@mipmap/recusu"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="2dp"/>
         </GridLayout>
