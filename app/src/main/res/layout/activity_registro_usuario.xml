@@ -61,6 +61,7 @@
             android:inputType="textEmailAddress"
             android:ems="10"
             android:hint="@string/nom"
+            android:textColorHint="@color/black"
             android:textColor="@color/black"
             android:background="@drawable/textwithe"/>
         <EditText
@@ -73,6 +74,7 @@
             android:inputType="textEmailAddress"
             android:ems="10"
             android:hint="@string/corre_ele"
+            android:textColorHint="@color/black"
             android:textColor="@color/black"
             android:background="@drawable/textwithe"/>
         <EditText
@@ -85,6 +87,7 @@
             android:inputType="textEmailAddress"
             android:ems="10"
             android:hint="@string/contra"
+            android:textColorHint="@color/black"
             android:textColor="@color/black"
             android:background="@drawable/textwithe"/>
         <EditText
@@ -97,6 +100,7 @@
             android:inputType="textEmailAddress"
             android:ems="10"
             android:hint="@string/confir_contra"
+            android:textColorHint="@color/black"
             android:textColor="@color/black"
             android:background="@drawable/textwithe"/>
 

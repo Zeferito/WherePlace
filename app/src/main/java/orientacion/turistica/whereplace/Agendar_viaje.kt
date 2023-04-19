@@ -11,6 +11,8 @@ class Agendar_viaje : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agendar_viaje)
 
+
+
         val btn_regreso: ImageView = findViewById(R.id.regreso)
         val btn_guardar_viaje: Button = findViewById(R.id.verviajes)
         val btn_ver_proximos_viajes: Button = findViewById(R.id.recordar)

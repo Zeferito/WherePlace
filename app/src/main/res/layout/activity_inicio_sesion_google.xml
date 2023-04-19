@@ -72,6 +72,7 @@
                 android:ems="10"
                 android:hint="@string/corre_ele"
                 android:inputType="textEmailAddress"
+                android:textColorHint="@color/black"
                 android:textColor="@color/black"/>
 
             <TextView
