@@ -69,6 +69,7 @@
             android:layout_marginTop="10dp" />
 
         <Button
+            android:id="@+id/guardar"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_marginTop="15dp"
@@ -78,6 +79,7 @@
             android:textSize="10sp" />
 
         <Button
+            android:id="@+id/verviajes"
             android:layout_width="wrap_content"
             android:layout_height="33dp"
             android:layout_marginTop="10dp"
@@ -93,6 +95,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/recordar"
                 android:layout_width="wrap_content"
                 android:layout_height="33dp"
                 android:layout_marginTop="10dp"
