@@ -16,7 +16,7 @@
             android:layout_height="40dp"
             android:layout_marginLeft="12dp"
             android:background="@drawable/round_button"
-            android:text="<"
+            android:text="r"
             android:textStyle="bold"
             />
         <Button

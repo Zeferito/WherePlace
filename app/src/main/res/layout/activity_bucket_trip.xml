@@ -61,7 +61,7 @@ que deseas hacer en tus proximos viajes."
         android:layout_marginLeft="12dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/round_button"
-        android:text="<"
+        android:text="r"
         android:textStyle="bold"
         tools:ignore="TouchTargetSizeCheck" />
 
