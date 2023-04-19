@@ -38,3 +38,4 @@
     <string name="proxiv"> Ver mis proximos viajes </string>
     <string name="recov"> ¿Recordarme? </string>
     <string name="activ"> Activa las notificaciones de la app para recordar tu viaje, recibir tips y estar al tanto de tus planes. </string>
+</resources>
