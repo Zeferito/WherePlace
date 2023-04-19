@@ -100,6 +100,7 @@ dinamica de TouchPlace y WherePlace para que la app elija por ti.
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
         />
     <Button
+        android:id="@+id/btntouchplace"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="80dp"
