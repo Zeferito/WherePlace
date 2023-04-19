@@ -33,7 +33,8 @@
                 android:text="@string/hola"/>
             <ImageView
                 android:src="@mipmap/Recurso"
-                android:layout_marginTop="2dp"/>
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"/>
         </GridLayout>
 
         <TextView
@@ -44,13 +45,15 @@
             android:layout_marginRight="65dp"
             android:text="@string/viaje"
             android:textSize="40sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="65dp"
             android:layout_marginRight="65dp"
-            android:text="@string/encuentra"/>
+            android:text="@string/encuentra"
+            android:textColor="@color/blacki"/>
         <Button
             android:id="@+id/viaje"
             android:layout_width="match_parent"
