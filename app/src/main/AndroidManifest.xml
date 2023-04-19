@@ -12,6 +12,9 @@
         android:theme="@style/Theme.WherePlace"
         tools:targetApi="31">
         <activity
+            android:name=".Bucket_Trip"
+            android:exported="false" />
+        <activity
             android:name=".Fin_Dinamica"
             android:exported="false" />
         <activity
