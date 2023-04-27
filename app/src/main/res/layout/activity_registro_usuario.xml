@@ -52,7 +52,7 @@
         android:background="@drawable/fondoredond">
 
         <EditText
-            android:id="@+id/correo_usuario"
+            android:id="@+id/nombre_usuario"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="25dp"
@@ -65,7 +65,7 @@
             android:textColor="@color/black"
             android:background="@drawable/textwithe"/>
         <EditText
-            android:id="@+id/nombre_usuario"
+            android:id="@+id/correo_usuario"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="10dp"
