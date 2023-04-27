@@ -49,6 +49,6 @@ class Registro_Usuario : AppCompatActivity() {
             val intent: Intent = Intent(this, Pantalla_Inicio::class.java)
             startActivity(intent)
         }
-
     }
+    
 }
