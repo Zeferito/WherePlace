@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -22,12 +23,17 @@ class   Inicio_Secion : AppCompatActivity() {
 
         val btn_iniciar: Button = findViewById(R.id.iniciar_sesion_2)
         val btn_regreso: ImageView = findViewById(R.id.regreso)
+        val btn_olvido: TextView = findViewById(R.id.olvido)
 
         btn_iniciar.setOnClickListener{
             valida_ingreso()
         }
         btn_regreso.setOnClickListener{
             val intent: Intent = Intent(this, Pantalla_Inicio::class.java)
+            startActivity(intent)
+        }
+        btn_olvido.setOnClickListener{
+            val intent: Intent = Intent(this, Contrasena::class.java)
             startActivity(intent)
         }
     }

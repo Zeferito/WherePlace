@@ -107,6 +107,7 @@
                 android:text="@string/olvidaste"
                 android:textColor="@color/black" />
             <TextView
+                android:id="@+id/olvido"
                 android:text="@string/haz"
                 android:textColor="@color/principal_green"/>
         </GridLayout>
