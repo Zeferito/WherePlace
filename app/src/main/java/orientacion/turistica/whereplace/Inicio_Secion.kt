@@ -66,7 +66,7 @@ class   Inicio_Secion : AppCompatActivity() {
                 } else {
                     // If sign in fails, display a message to the user.
                     //Log.w(TAG, "signInWithEmail:failure", task.exception)
-                    Toast.makeText(baseContext, "Authentication failed.",
+                    Toast.makeText(baseContext, "Fallo la autenticacion este correo no esta registrado.",
                         Toast.LENGTH_SHORT).show()
                     //updateUI(null)
                 }
