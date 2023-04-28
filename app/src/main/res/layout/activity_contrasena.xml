@@ -28,6 +28,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:inputType="textEmailAddress"
             android:ems="10"
             android:id="@+id/et_correo_cont"
@@ -35,9 +36,11 @@
 
         <Button
             android:text="Restablecer Contraseña"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_marginRight="5dp"
-            android:background="@color/dusty_rose"
+            android:background="@drawable/buttonredondo"
             android:layout_height="wrap_content"
             android:id="@+id/btn_restablecer"
             android:layout_weight="1"/>
