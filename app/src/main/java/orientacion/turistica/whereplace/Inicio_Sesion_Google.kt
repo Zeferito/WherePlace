@@ -45,6 +45,7 @@ class Inicio_Sesion_Google : AppCompatActivity() {
 
                 intent.putExtra("name", account.getDisplayName())
                 startActivityForResult(intent, LOG_OUT)
+
             }
         }
 
