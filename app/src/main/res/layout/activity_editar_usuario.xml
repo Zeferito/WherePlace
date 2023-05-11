@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Perfil_Usuario"
+    tools:context=".Editar_Usuario"
     android:background="@color/white">
 
     <GridLayout
@@ -69,49 +69,68 @@
             android:textSize="16sp"/>
 
         <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:minHeight="48dp"
-            android:text="Nombre de usuario"
-            android:textColor="@color/blacki" />
-
+            android:id="@+id/nombre_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginLeft="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="@string/nom"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@drawable/textwithe"/>
         <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:id="@+id/biografia"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
             android:layout_marginTop="5dp"
-            android:minHeight="48dp"
-            android:text="Biografia o estado"
-            android:textColor="@color/blacki" />
-
+            android:layout_marginRight="48dp"
+            android:layout_marginLeft="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint=" Biografia o estado"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@drawable/textwithe"/>
         <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:id="@+id/cuenta_algo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
             android:layout_marginTop="5dp"
-            android:minHeight="48dp"
-            android:text="Cuenta algo sobre ti"
-            android:textColor="@color/blacki" />
-
+            android:layout_marginRight="48dp"
+            android:layout_marginLeft="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint=" Cuenta algo sobre ti"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@drawable/textwithe"/>
         <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
             android:layout_marginTop="5dp"
-            android:minHeight="48dp"
-            android:text="Inserta link o enlace"
-            android:textColor="@color/blacki" />
+            android:layout_marginRight="48dp"
+            android:layout_marginLeft="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="Inserta link o enlace"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@drawable/textwithe"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
             android:gravity="center"
             android:textColor="@color/blacki"
             android:textStyle="bold"
-            android:text="Editar Perfil"
+            android:text="Guardar Cambios"
             android:textSize="16sp"/>
         <TextView
             android:layout_width="match_parent"

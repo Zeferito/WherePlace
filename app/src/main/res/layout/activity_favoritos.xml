@@ -5,28 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Favoritos">
+    tools:context=".Favoritos"
+    android:background="@color/white">
 
-    <LinearLayout
-        android:layout_marginTop="18dp"
+    <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:gravity="center"
         android:orientation="horizontal">
-        <Button
-            android:layout_width="39dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="12dp"
-            android:background="@drawable/round_button"
-            android:text="r"
-            android:textStyle="bold"
-            />
-        <Button
-            android:layout_width="39dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="307dp"
-            android:background="@drawable/round_button"
-            android:id="@+id/perfil"/>
-    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/regreso"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="300dp"
+            android:src="@mipmap/verde" />
+
+        <ImageView
+            android:src="@mipmap/recusu"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"/>
+    </GridLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,6 +34,7 @@
         android:text="Favoritos"
         android:layout_marginTop="3dp"
         android:layout_marginRight="62dp"
+        android:layout_marginLeft="62dp"
         android:textColor="@color/principal_green"
         android:textStyle="bold"
         android:textSize="32sp"/>
@@ -43,7 +44,8 @@
         android:gravity="center"
         android:text="Todos tus favoritos de la app"
         android:layout_marginTop="-5dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginLeft="62dp"
         android:textColor="@color/blacki"
         android:textSize="13sp"/>
 
@@ -53,25 +55,14 @@
         android:orientation="vertical"
         android:paddingTop="10dp"
         android:layout_marginTop="2sp"
-        android:background="@drawable/round_grayback">
+        android:background="@drawable/fondoredond">
 
-        <Button
-            android:layout_width="260dp"
-            android:layout_height="160dp"
-            android:layout_gravity="center"
+        <GridView
+            android:id="@+id/reminders"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="15dp"
-            android:background="@drawable/round_button"/>
-        <Button
-            android:layout_width="260dp"
-            android:layout_height="160dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/round_button"/>
-        <Button
-            android:layout_width="260dp"
-            android:layout_height="160dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/round_button"/>
+            android:numColumns="1" />
+
     </LinearLayout>
 </LinearLayout>
