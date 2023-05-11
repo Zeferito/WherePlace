@@ -16,6 +16,7 @@ class MenuProvisional : AppCompatActivity() {
         val btn_favoritos: Button = findViewById(R.id.favoritos)
         val btn_ajustes_configuracion: Button = findViewById(R.id.config)
         val btn_notificiones: Button = findViewById(R.id.notificacion)
+        val btn_logout: Button = findViewById(R.id.loguot)
 
         btn_regreso.setOnClickListener{
             val intent: Intent = Intent(this, Pantalla_Principal::class.java)
@@ -36,6 +37,9 @@ class MenuProvisional : AppCompatActivity() {
         btn_notificiones.setOnClickListener{
             val intent: Intent = Intent(this, Notificaciones::class.java)
             startActivity(intent)
+        }
+        btn_logout.setOnClickListener{
+            logout()
         }
     }
 }

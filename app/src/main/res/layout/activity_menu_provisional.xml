@@ -70,5 +70,14 @@
         android:layout_marginRight="65dp"
         android:text="Notificaciones"
         android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/loguot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:text="Cerrar Sesion"
+            android:textColor="@color/white"/>
     </LinearLayout>
 </LinearLayout>
