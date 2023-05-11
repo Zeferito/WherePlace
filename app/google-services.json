@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "719467835777-6rav74qfiek1a88t75pm2v8fl9qlpspg.apps.googleusercontent.com",
+          "client_id": "719467835777-7q3np73d0ucj8loqf6lbb3bo6oarlfq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orientacion.turistica.whereplace",
+            "certificate_hash": "a9851ff97c12c35f2a050f08c7005e5ed5779ab6"
+          }
+        },
+        {
+          "client_id": "719467835777-fsv8t717f156n258t27u9pt6m96irkro.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
