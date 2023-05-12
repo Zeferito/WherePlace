@@ -61,6 +61,7 @@
             android:textSize="18sp"
             android:gravity="center"/>
         <TextView
+            android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="User123"
@@ -69,6 +70,7 @@
             android:textSize="16sp"/>
 
         <EditText
+            android:id="@+id/nombreuse"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -78,6 +80,7 @@
             android:textColor="@color/blacki" />
 
         <EditText
+            android:id="@+id/biografia"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -87,6 +90,7 @@
             android:textColor="@color/blacki" />
 
         <EditText
+            android:id="@+id/cuenta_algo"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -96,6 +100,7 @@
             android:textColor="@color/blacki" />
 
         <EditText
+            android:id="@+id/link"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -105,14 +110,16 @@
             android:textColor="@color/blacki" />
 
         <TextView
+            android:id="@+id/editar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60sp"
             android:gravity="center"
-            android:textColor="@color/blacki"
-            android:textStyle="bold"
             android:text="Editar Perfil"
-            android:textSize="16sp"/>
+            android:textColor="@color/blacki"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

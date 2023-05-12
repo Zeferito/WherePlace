@@ -66,7 +66,8 @@
             android:layout_width="match_parent"
             android:layout_height="299dp"
             android:layout_marginTop="10dp"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:theme="@style/Theme.AppCompat.Light"/>
 
         <Button
             android:id="@+id/guardar"

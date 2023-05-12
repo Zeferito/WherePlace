@@ -61,6 +61,7 @@
             android:textSize="18sp"
             android:gravity="center"/>
         <TextView
+            android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="User123"
@@ -122,16 +123,18 @@
             android:background="@drawable/textwithe"/>
 
         <Button
+            android:id="@+id/guardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50sp"
             android:layout_marginLeft="90dp"
+            android:layout_marginTop="50sp"
             android:layout_marginRight="90dp"
             android:gravity="center"
-            android:textColor="@color/blacki"
-            android:textStyle="bold"
             android:text="Guardar Cambios"
-            android:textSize="16sp"/>
+            android:textColor="@color/blacki"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
