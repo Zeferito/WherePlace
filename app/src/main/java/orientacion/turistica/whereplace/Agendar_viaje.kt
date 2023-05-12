@@ -14,8 +14,8 @@ class Agendar_viaje : AppCompatActivity() {
 
 
         val btn_regreso: ImageView = findViewById(R.id.regreso)
-        val btn_guardar_viaje: Button = findViewById(R.id.verviajes)
-        val btn_ver_proximos_viajes: Button = findViewById(R.id.recordar)
+        val btn_guardar_viaje: Button = findViewById(R.id.guardar)
+        val btn_ver_proximos_viajes: Button = findViewById(R.id.verviajes)
 
         btn_regreso.setOnClickListener{
             val intent: Intent = Intent(this, Pantalla_Principal::class.java)
