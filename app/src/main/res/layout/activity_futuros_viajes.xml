@@ -52,10 +52,90 @@
             android:textColor="@color/black"
             android:textSize="15sp" />
 
-        <ImageView
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="359dp"
-            android:src="@mipmap/viajes" />
+            android:layout_height="300dp">
+
+            <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/fondo"
+            android:paddingVertical="10dp"
+            android:columnCount="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <GridLayout
+
+                android:layout_width="200dp"
+                android:layout_height="88dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Practice"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Everyday"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+
+            </GridLayout>
+            <GridLayout
+
+                android:layout_width="200dp"
+                android:layout_height="88dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@drawable/button_green_circle"
+                    android:gravity="center"
+                    android:text="Cambiar fechas"
+                    android:textColor="@color/blacki"
+                    android:textSize="16sp" />
+                <GridLayout
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_4"
+                        android:layout_width="76dp"
+                        android:layout_height="38dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:gravity="center"
+                        android:text="Recordar"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                    <Switch
+                        android:id="@+id/switch1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="1dp"
+                        android:thumbTint="@color/principal_change" />
+                </GridLayout>
+            </GridLayout>
+            </GridLayout>
+
+        </ScrollView>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

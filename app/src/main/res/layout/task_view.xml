@@ -38,19 +38,12 @@
                 android:id="@+id/text_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:gravity="center"
                 android:text="Everyday"
                 android:textColor="@color/white"
                 android:textSize="10sp" />
 
-            <TextView
-                android:id="@+id/text_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="17:00"
-                android:textColor="@color/white"
-                android:textSize="14sp" />
 
         </GridLayout>
 
