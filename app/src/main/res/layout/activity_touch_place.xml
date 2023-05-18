@@ -5,31 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Touch_Place">
+    tools:context=".Touch_Place"
+    android:background="@color/white">
 
     <LinearLayout
-        android:layout_marginTop="18dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btngohome"
-            android:layout_width="39dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="12dp"
-            android:background="@drawable/round_button"
-            android:text=""
-            android:textStyle="bold"
-            tools:ignore="TouchTargetSizeCheck" />
+            <ImageView
+                android:id="@+id/regreso"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="300dp"
+                android:src="@mipmap/verde" />
 
-        <Button
-            android:layout_width="39dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="307dp"
-            android:background="@drawable/round_button"
-            android:contentDescription="@string/app_name"
-            tools:ignore="TouchTargetSizeCheck" />
+            <ImageView
+                android:src="@mipmap/recusu"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"/>
+        </GridLayout>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"

@@ -14,66 +14,104 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"/>
 
-    <TextView
-        android:layout_width="260dp"
-        android:layout_height="70sp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:text="OPCION 1 (Color amarillo
-Restaurante El colmillo
-Calle Luis Antonio #239
-Col. Cruz del Valle, Centro."
-        android:textAlignment="center"
-        android:fontFamily="sans-serif-black"
-        android:textColor="@color/blacki"
-        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
 
-    <Button
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/fondo"
+            android:paddingVertical="10dp"
+            android:columnCount="2"
+            android:gravity="center"
+            android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Practice"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Everyday"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <ImageView
         android:id="@+id/btnfin1"
         android:layout_width="66dp"
-        android:layout_height="61dp"
+        android:layout_height="98dp"
         android:layout_gravity="right"
-        android:background="@drawable/round_button"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="200sp"
-        android:background="@color/green"
-        android:text="Mantenga presionada la pantalla en sus
-respectivos lugares con su dedo pulgar.
-Al terminar uno de los colores abarcara
-mayormente el espacio de la pantalla
-y sera el lugar escogido.
-
-!Vamos!" />
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ellipse"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"/>
 
-    <TextView
-        android:layout_width="260dp"
-        android:layout_height="70sp"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:fontFamily="sans-serif-black"
-        android:text="OPCION 2 (Color azul)
-Restaurante El Paseo 444
-Calle Juan Madero #578
-Col. Mira  del Cortez, Centro."
-        android:textAlignment="center"
-        android:textColor="@color/black" />
 
-    <Button
+    <ImageView
         android:id="@+id/btnfin2"
         android:layout_width="66dp"
-        android:layout_height="84dp"
+        android:layout_height="102dp"
         android:layout_gravity="right"
-        android:background="@drawable/round_button"
-        tools:ignore="SpeakableTextPresentCheck" />
+        android:layout_marginTop="200dp"
+        android:src="@mipmap/ellipse"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fondo"
+            android:paddingVertical="10dp"
+            android:columnCount="2"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Practice"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Everyday"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+        </GridLayout>
+
+    </ScrollView>
 
   </LinearLayout>

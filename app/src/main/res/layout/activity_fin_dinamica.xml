@@ -14,30 +14,56 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/fondo"
+            android:paddingVertical="10dp"
+            android:columnCount="2"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Practice"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Everyday"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+        </GridLayout>
+
+    </ScrollView>
+
     <TextView
-        android:layout_width="260dp"
-        android:layout_height="70sp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:fontFamily="sans-serif-black"
-        android:text="OPCION 1 (Color amarillo
-Restaurante El colmillo
-Calle Luis Antonio #239
-Col. Cruz del Valle, Centro."
-        android:textAlignment="center"
-        android:textColor="@color/gray_light"
-        />
-    <TextView
+        android:id="@+id/mensaje"
         android:layout_width="250dp"
         android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
         android:background="@color/gray_light"
         android:text="¡La Opcion dos ha ganado!
                       Restaurante El Paseo 444
                       Calle Juan madero "
-        android:textAlignment="center"
-        android:layout_gravity="center"
-        android:layout_marginTop="200sp"
-        />
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/btnsabermas"
@@ -47,7 +73,7 @@ Col. Cruz del Valle, Centro."
         android:layout_marginTop="40sp"
         android:drawableBottom="@drawable/round_button"
         android:text="Saber mas sobre este sitio"
-        android:textSize="5sp" />
+        android:textSize="12sp" />
     <Button
         android:id="@+id/btnintentar"
         android:layout_width="wrap_content"
@@ -56,7 +82,7 @@ Col. Cruz del Valle, Centro."
         android:layout_marginTop="20sp"
         android:drawableBottom="@drawable/round_button"
         android:text="Intentar de nuevo"
-        android:textSize="5sp" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/btnvolverinicio"
@@ -66,19 +92,6 @@ Col. Cruz del Valle, Centro."
         android:layout_marginTop="20sp"
         android:drawableBottom="@drawable/round_button"
         android:text="Volver a inicio"
-        android:textSize="5sp" />
-
-    <TextView
-        android:layout_width="260dp"
-        android:layout_height="70sp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:fontFamily="sans-serif-black"
-        android:text="OPCION 2 (Color azul)
-Restaurante El Paseo 444
-Calle Juan Madero #578
-Col. Mira  del Cortez, Centro."
-        android:textAlignment="center"
-        android:textColor="@color/gray_light" />
+        android:textSize="12sp" />
 
 </LinearLayout>

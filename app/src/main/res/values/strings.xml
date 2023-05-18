@@ -44,4 +44,9 @@
         Activa las notificaciones.
         Cambia las fichas si lo necesitas. </string>
     <string name="volver"> Volver al inicio </string>
+    <string name="toast">Mantengan presionada la pantalla en sus respectivos lugares con su dedo pulgar.
+ Al terminar uno de los dos colores abarcará mayormente el espacio de la pantalla
+ y será el lugar escogido.
+
+¡Vamos!</string>
 </resources>

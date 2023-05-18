@@ -5,6 +5,7 @@ import android.os.Bundle
 
 import android.content.Intent
 import android.widget.Button
+import android.widget.ImageView
 
 class Touch_Place : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +14,7 @@ class Touch_Place : AppCompatActivity() {
 
 
 
-         val btn : Button = findViewById(R.id.btngohome)
+         val btn : ImageView = findViewById(R.id.regreso)
         btn.setOnClickListener{
           val intent: Intent= Intent(this,Pantalla_Principal:: class.java )
         startActivity(intent)
@@ -21,7 +22,7 @@ class Touch_Place : AppCompatActivity() {
 
 
         val btn2 : Button = findViewById(R.id.btntouchplace)
-        btn.setOnClickListener{
+        btn2.setOnClickListener{
             val intent: Intent= Intent(this,Pantalla_Cargando:: class.java )
             startActivity(intent)
         }
